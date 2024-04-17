@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico El Faro - Negocios</title>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+    <header>
+        <img width="100" height="150"src="https://c8.alamy.com/compes/rdyp0x/logotipo-de-faro-la-navegacion-maritima-y-transporte-rdyp0x.jpg"/><br>
+    <h1><strong>Periódico El Faro</strong></h1>
+    <h2><em>Tu periódico de confianza</em></h2>
+    </header>
+
+    <nav>
+        <button><a href="index.html">Inicio</a></button>
+        <button><a href="deportes.html">Deporte</a></button>
+        <button><a href="negocios.html">Negocios</a></button>
+    </nav>
+
+    <section id="seccion-negocios">
+        <h2>Noticias de Negocios</h2>
+        <table>
+            <tr>
+                <th>Noticias</th>
+                <th>Categoría</th>
+                <th>Texto</th>
+            </tr>
+            <tr>
+                <td><span style="font-weight: bold; font-size: 1.2em;">Dólar cierra la semana dando un fuerte salto ante incertidumbre monetaria en EE.UU. y tensión en Medio Oriente</span></td>
+                <td>Negocios</td>
+                <td>
+                    <img src="https://static.emol.cl/emol50/Fotos/2024/04/12/file_20240412141331.jpg"/><br>
+                <p>El dólar anotó una fuerte alza en su última sesión de la semana, quedando muy cerca de los $970, 
+                    mientras escala la tensión en Medio Oriente ante un posible ataque de Irán contra Israel en los próximos días, lo que incrementa el apetito por activos refugio.</p> 
+                <p>Esto, sumado a la incertidumbre monetaria en Estados Unidos, con un mercado lleno de dudas respecto a cuándo la Reserva Federal iniciará la baja de tasas de interés, 
+                    incertidumbre que creció luego que la inflación de marzo en la potencia mundial se ubicará sobre lo previsto.</p>
+                <p>Factores que, además de cifras económicas provenientes de China, han dado un impulso alcista al billete verde, que culminó sus operaciones más líquidas de este viernes escalando $12,5, 
+                    quedando en puntas de $967,8 vendedor y $967,5 comprador.</p>
+                <p>"El tipo de cambio experimentó un aumento impulsado por una depreciación del peso chileno durante la tarde del viernes. Esta variación se atribuye a los recientes datos económicos de China, 
+                    que revelaron una contracción en el superávit de la balanza comercial, especialmente en las exportaciones. Este resultado generó expectativas de una posible disminución en la demanda de cobre a corto plazo", 
+                    comentó Gonzalo Muñoz, estratega de mercados XTB Latam.</p>
+                <p>Además, agregó, "la incertidumbre generada por las tensiones geopolíticas han provocado fluctuaciones significativas en los precios de los commodities. A pesar de un incremento general en la cotización de estos, 
+                    incluido el cobre, no fue suficiente para aliviar la presión sobre el tipo de cambio chileno durante el día".</p> 
+                <p>Por su parte, Ricardo Bustamante, subgerente de estudios de Capitaria, señaló que "el dólar ha registrado alzas a nivel global, en medio de expectativas de un mayor retraso en el comienzo del proceso de bajas de tasas de la Reserva Federal, 
+                    debido a que los datos de inflación al consumidor en Estados Unidos han resultado superiores a las proyecciones".</p>
+                <p>"Durante la próxima semana conoceremos datos del comercio minorista en Estados Unidos y cifras de actividad económica en China que podrían generar mayor volatilidad al tipo de cambio", cerró.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><span style="font-weight: bold; font-size: 1.2em;">Los 10 mejores países del mundo para hacer negocios</span></td>
+                <td>Negocios</td>
+                <td>
+                <p>El ránking de los mejores lugares del mundo para hacer negocios elaborado por el centro de análisis Economist Intelligence Unit (EIU) trae cambios para Argentina, 
+                    que ingresa en una nueva categoría, y Chile, que registró una importante caída.</p>
+                <p>La lista global del EIU recoge los países que ofrecen las condiciones más favorables para que los grandes inversores 
+                    decidan mover sus capitales a esos territorios.</p>
+                <p>Entre esas condiciones están la estabilidad macroeconómica, la situación política, las oportunidades de mercado, 
+                    las restricciones comerciales o el sistema impositivo.</p>
+                <p>“Hacemos una proyección de lo que puede ocurrir dentro de los próximos cinco años”, dice Nicolás Saldías, economista senior del EIU para América Latina en diálogo con BBC Mundo.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><span style="font-weight: bold; font-size: 1.2em;">Qué son las "golden visas" que España va a eliminar y quiénes se benefician de ellas</span></td>
+                <td>Negocios</td>
+                <td>
+                <p>Medio millón de euros, unos US$543.000. Esa es la cifra que en España da acceso a poder vivir, trabajar o estudiar con una de las llamadas “golden visas” o “visas de oro”.</p>
+                <p>Los solicitantes seleccionados y sus familias no solo consiguen un permiso "acelerado" para residir en territorio español, 
+                    sino que también pueden viajar libremente por la Unión Europea y por el espacio Schengen, que forman hasta 26 países.</p>
+                <p>Otros beneficios implican acceso a los sistemas públicos de salud y educación, así como mejores tasas en las universidades públicas.</p>
+                <p>Conseguir una “visa de oro” requiere comprar una vivienda en España con un valor mínimo de 500.000 euros, 
+                    tener instrumentos financieros equivalentes a 1 millón de euros en territorio español o invertir al menos 2 millones en deuda del Estado.</p>
+                </td>
+            </tr>
+            <tr>
+        </table>
+    </section>
+
+    <script>
+        // Función para mostrar u ocultar el texto de la noticia cuando se hace clic en el título
+        function toggleText(id) {
+            var texto = document.getElementById(id);
+            if (texto.style.display === "none") {
+                texto.style.display = "block";
+            } else {
+                texto.style.display = "none";
+            }
+        }
+
+        // Agrega eventos de clic a los títulos de las noticias
+        document.getElementById("titulo1").addEventListener("click", function() {
+            toggleText("texto1");
+        });
+    </script>
+</body>
+</html>
